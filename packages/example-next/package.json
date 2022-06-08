@@ -3,6 +3,7 @@
   "name": "example-next",
   "scripts": {
     "start": "next dev",
+    "build": "next buld",
     "pin": "sh -c '{ for X in {coinbase-wallet,core,eip1193,empty,gnosis-safe,metamask,network,types,url,walletconnect}; do lerna add @web3-react/$X --exact --no-bootstrap --scope=example-next; done }'"
   },
   "dependencies": {
